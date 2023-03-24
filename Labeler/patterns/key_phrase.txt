@@ -1,0 +1,40 @@
+#XXX exam (previous, prior, preceding, comparison)
+{} <{} {lemma:/exam|study|examination|ct|scan|cxr|radiograph|imaging|image|film/}
+{} >{} {lemma:/exam|study|examination|ct|scan|cxr|radiograph|imaging|image|film|day|dictation/}
+
+#XXX chest CT (previous, prior, preceding, comparison)
+{} <{} ({lemma:/ct/} >{dependency:/compound/} {lemma:/chest/})
+
+#XXX chest radiograph (previous, prior, preceding, comparison)
+{} <{} ({lemma:/radiograph/} >{dependency:/compound/} {lemma:/chest/})
+
+#than/from/to/in XXX (previous, prior, preceding)
+{} >{} {lemma:/than|from|to|in/}
+
+#XXX present (again, previously)
+{} <{} {lemma:/present|see|identify|visualize|note|describe|demonstrate|enlarge|attribute|suggest|detect|report/}
+
+#have/has been XXX (change, unchange, increase, decrease, enlarge, improve, worsen, remain, persistent)
+{} >{} {lemma:/be|appear|remain/}
+{} <{} {lemma:/be|appear|remain/}
+
+#compared with/to XXX (previous, prior, preceding)
+{} >{} {lemma:/compare/} >{} {lemma:/with|to/}
+
+#similar with/to XXX (previous, prior, preceding)
+{} <{} {lemma:/similar/}
+
+#XXX development (interval)
+{} <{} {lemma:/development|removal|decrease|increase|change|retraction|fixation/}
+
+#significant XXX (change)
+{} >{} {lemma:/signifiant|interval|relevant|overall|inflammatory|chronic|rapid|prominent/}
+
+#XXX clear (remain)
+{} >{} {lemma:/clear|unchange|present|enlarge|free|tortous/}
+
+#XXX appearance (interval, change)
+{} <{} {lemma:/appearance|location|position|evidence|area|development|removal|decrease|increase|change|retraction|fixation|placement|enlargement|widening|intubation|resolution|reduction|worsening|improvement|improved|fracture|followup/}
+
+#evidence of XXX (previous, prior, preceding)
+{} <{} {lemma:/evidence/}

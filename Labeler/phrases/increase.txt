@@ -1,8 +1,0 @@
-increase
-decrease
-unchange
-change
-elevate
-enlarge
-inflate
-expand

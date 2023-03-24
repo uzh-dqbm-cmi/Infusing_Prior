@@ -1,9 +1,9 @@
 # BioNLP-Workshop-ACL-2023
 Official code implementation of the paper &lt;Boosting Radiology Report Generation by Infusing Comparison Prior>
 
-Our code consists of two part: Infusing prior and Labeler. 
+Our code consists of two part: "Infusing_prior" and "Labeler". 
 
-Infusing prior includes the code of main model shown in figure 1 of the paper and Labeler is the code for rule-based labeler introduced in Sec. 3.1 in our paper.
+"Infusing_prior" includes the code of main model shown in figure 1 of the paper and "Labeler" is the code for rule-based labeler introduced in Sec. 3.1 in our paper.
 
 Belows are the flow of process to run our code.
 

@@ -1,4 +1,4 @@
-# BioNLP-Workshop-ACL-2023
+# ClinicalNLP-Workshop-ACL-2023
 Official code implementation of the paper &lt;Boosting Radiology Report Generation by Infusing Comparison Prior>
 
 Our code consists of two part: "Infusing_prior" and "Labeler". 
